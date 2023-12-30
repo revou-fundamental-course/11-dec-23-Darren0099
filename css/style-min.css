@@ -1,0 +1,59 @@
+select::pseudo-element {
+    property: value;
+  }
+
+.home-achievement .achievement-wrap
+{
+    background-color: #ffdd00;
+    padding: 60px;
+    display: flex 
+    grid: 32px;
+    position: relative;
+    z-index: 2;
+}
+
+.home-achievement .foot {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: #ffdd00;
+}
+.home-achievement .achievement-wrap {
+    background-color: #ffdd00;
+    padding: 60px;
+    display: flex;
+    gap: 32px;
+    position: relative;
+    z-index: 2;
+}
+
+.home-achievement .achievement-wrap .item .icon svg {
+    width: 50px;
+    height: 50px;
+}
+.home-achievement .achievement-wrap .item {
+    flex: 1 1 33.33%;
+}
+.home-achievement .achievement-wrap .item .icon {
+    --color-img: black;
+}
+.home-achievement .achievement-wrap .item .icon img 
+ {
+    transition: all 0.2s ease-in-out;
+}
+.home-achievement .achievement-wrap .item .icon img {
+    width: 50px;
+    height: 50px;
+}
+.home-achievement .achievement-wrap .item .icon .title {
+    margin-top: 15px;
+}
+.home-achievement .achievement-wrap .item .title {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.43;
+    letter-spacing: 0.15px;
+    color: black;
+}
